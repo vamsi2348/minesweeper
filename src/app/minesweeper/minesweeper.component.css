@@ -1,0 +1,17 @@
+table{
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid white;
+    padding: 1em;
+    width: 2em;
+    height: 1.5em;
+}
+ td:hover{
+    outline: 3px solid cornflowerblue;
+ }
+
+td:not(.revealed){
+    cursor: pointer
+}
